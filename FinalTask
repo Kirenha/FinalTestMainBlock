@@ -1,0 +1,3 @@
+string [] arrayFirst = new string[5];
+Console.WriteLine($"Введите не более пяти элементов массива разной длины через пробел ");
+            arrayFirst =  Console.ReadLine().Split(' ');
